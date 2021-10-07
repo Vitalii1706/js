@@ -1,0 +1,10 @@
+[data-description] {
+  background: grey;
+  font-size: 24px;
+}
+a[href][target] {
+  color: green;
+}
+input[type='text'] {
+  background-color: orange;
+}
