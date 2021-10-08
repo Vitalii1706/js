@@ -2,10 +2,6 @@
   color: green;
 }
 
-li,
-ol {
-  background-color: yellow;
-}
 header,
 footer {
   border: 3px dashed blue;
@@ -25,4 +21,9 @@ li[class='topic new'] {
 }
 [class='new posted-today'] {
   background-color: pink;
+}
+
+ol,
+ul {
+  background-color: yellow;
 }
