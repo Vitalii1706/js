@@ -2,7 +2,8 @@
   color: green;
 }
 
-li {
+li,
+ol {
   background-color: yellow;
 }
 header,
