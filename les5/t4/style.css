@@ -1,0 +1,27 @@
+[target='_blank'] {
+  color: green;
+}
+
+li {
+  background-color: yellow;
+}
+header,
+footer {
+  border: 3px dashed blue;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-left: 20px;
+}
+article[class='new'] {
+  font-size: 24px;
+}
+li[class='new'] {
+  background-color: red;
+}
+[class='new'],
+[class='posted-today'] {
+  background-color: pink;
+}
