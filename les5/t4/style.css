@@ -19,7 +19,7 @@ h4 {
 article[class='new'] {
   font-size: 24px;
 }
-li[class='new'] {
+li[class='topic new'] {
   background-color: red;
 }
 [class='new'],
