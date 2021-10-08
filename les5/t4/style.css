@@ -22,7 +22,6 @@ article[class='new'] {
 li[class='topic new'] {
   background-color: red;
 }
-[class='new'],
-[class='posted-today'] {
+[class='new posted-today'] {
   background-color: pink;
 }
