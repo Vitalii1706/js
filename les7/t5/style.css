@@ -13,7 +13,7 @@ li {
 p {
   background-color: yellow;
 }
-input {
+input[type='password'] {
   border: 3px solid red;
 }
 .hello {
