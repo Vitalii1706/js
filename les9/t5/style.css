@@ -24,7 +24,7 @@ header {
 
 .content {
   background-color: beige;
-  height: 500px;
+  height: 5000px;
 }
 
 .main {
@@ -37,7 +37,6 @@ header {
   width: 200px;
   background-color: aquamarine;
   position: absolute;
-  top: 150px;
   margin: auto;
   top: 500px;
   left: calc(50% - 100px);
