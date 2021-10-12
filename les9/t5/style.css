@@ -29,7 +29,7 @@ header {
 
 main {
   position: relative;
-  z-index: index 0;
+  z-index: 0;
 }
 
 .head {
