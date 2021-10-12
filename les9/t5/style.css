@@ -1,64 +1,78 @@
 header {
   height: 40px;
+  width: 100%;
   background-color: darkturquoise;
+  position: fixed;
+  z-index: 1;
+}
+
+.navigation {
+  height: 40px;
+  line-height: 40px;
 }
 
 .nav-item {
-  height: 40px;
   color: white;
   margin-left: 16px;
   display: inline-block;
-  margin-top: 10px;
+}
+
+.nav-list {
+  margin: 0;
+  /*list-style: none;*/
+}
+
+.content {
+  background-color: beige;
+  height: 500px;
 }
 
 main {
-  background-color: beige;
-  height: 500px;
+  position: relative;
+  z-index: index 0;
 }
 
 .head {
   height: 200px;
   width: 200px;
   background-color: aquamarine;
-  position: relative;
+  position: absolute;
   top: 150px;
   margin: auto;
+  top: 500px;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
 }
 
-.ear_right {
+.ear {
   height: 60px;
   width: 40px;
   background-color: brown;
   position: absolute;
   top: -60px;
+}
+
+.ear_right {
   right: -40px;
 }
 
 .ear_left {
-  height: 60px;
-  width: 40px;
-  background-color: brown;
-  position: absolute;
-  top: -60px;
   left: -40px;
 }
 
-.eye_right {
+.eye {
   height: 30px;
   width: 30px;
   background-color: grey;
   position: absolute;
   top: 80px;
-  right: 40px;
   border-radius: 50%;
 }
 
+.eye_right {
+  right: 40px;
+}
+
 .eye_left {
-  height: 30px;
-  width: 30px;
-  background-color: grey;
-  position: absolute;
-  top: 80px;
   left: 40px;
-  border-radius: 50%;
 }
