@@ -14,12 +14,12 @@ header {
 .nav-item {
   color: white;
   margin-left: 16px;
-  display: inline-block;
+  float: left;
 }
 
 .nav-list {
   margin: 0;
-  /*list-style: none;*/
+  list-style: none;
 }
 
 .content {
