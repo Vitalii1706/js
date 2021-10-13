@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.article {
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+  flex-basis: 300px;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
