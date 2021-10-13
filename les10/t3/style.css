@@ -59,8 +59,7 @@
 }
 
 .sidebar_news {
-  display: flex;
-  justify-content: center;
+  margin: 16px auto;
 }
 
 .news-list {
