@@ -74,3 +74,7 @@
   height: 40px;
   display: flex;
 }
+
+.news-list > li > span {
+  margin: auto 0;
+}
