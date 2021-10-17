@@ -2,11 +2,12 @@
   box-sizing: border-box;
 }
 
-div {
+.gaLlery {
   display: flex;
+  overflow-x: auto;
+  cursor: all-scroll;
 }
 
-img {
+.thumb {
   margin: 8px;
-  cursor: all-scroll;
 }
