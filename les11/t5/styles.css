@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.gaLlery {
+.gallery {
   display: flex;
   overflow-x: auto;
   cursor: all-scroll;
