@@ -1,0 +1,22 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 74px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 50vh;
+  margin: 16px auto;
+}
+
+div {
+  height: 200px;
+  background-color: coral;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  line-height: 200px;
+}
