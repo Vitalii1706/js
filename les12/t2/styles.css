@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -8,8 +12,8 @@ h1 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 50vh;
-  margin: 16px auto;
+  width: 50%;
+  margin: auto;
 }
 
 div {
