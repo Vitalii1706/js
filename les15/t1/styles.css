@@ -2,13 +2,9 @@
   box-sizing: border-box;
 }
 
-.image-conteiner {
-  margin: 50px 0;
-}
-
 .main-image {
   display: block;
-  margin: 0 auto;
+  margin: 50px auto;
   border-radius: 20px;
   max-width: 100%;
 }
