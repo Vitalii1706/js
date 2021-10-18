@@ -11,7 +11,7 @@ div {
   padding-top: 32px;
   text-align: center;
   font-weight: 700;
-  background-image: url(nature.jpeg);
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
   background-position: center;
   background-size: cover;
 }
