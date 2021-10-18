@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .form-control {
+        margin: 16px;
+      }
+
+      .choose-gender {
+        margin: 16px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <div class="form-control">
+        <input type="text" name="lastName" value="Emerson" />
+      </div>
+      <div class="form-control">
+        <input type="number" name="age" value="17" />
+      </div>
+      <div class="form-control">
+        <label for="checkbox-agree"
+          ><input id="checkbox-agree" type="checkbox" name="agree" />Accept
+          terms and conditions.</label
+        >
+      </div>
+      <div class="form-control choose-gender">
+        <input type="radio" id="gender-male" name="gender" />
+        <label for="gender-male">Male</label>
+        <input type="radio" id="gender-female" name="gender" />
+        <label for="gender-female">Female</label>
+        <input type="radio" id="gender-secret" name="gender" />
+        <label for="gender-secret">Secret</label>
+      </div>
+      <div class="form-control">
+        <textarea
+          name="description"
+          placeholder="Write description..."
+        ></textarea>
+      </div>
+      <div class="form-control">
+        <button type="submit">Sabmit</button>
+      </div>
+    </form>
+  </body>
+</html>
