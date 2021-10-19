@@ -32,7 +32,7 @@ body {
 
 .form-label {
   display: flex;
-  margin: 4px;
+  margin: 4px 0;
 }
 
 .form-input {
