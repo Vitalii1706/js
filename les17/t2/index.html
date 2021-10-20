@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+
+      * {
+        box-sizing: border-box;
+      }
+
+      table {
+        width: 500px;
+      }
+
+
+      table {
+        margin: 32px;
+      }
+
+
+      table, td, th {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      td, th {
+        padding: 4px;
+        text-align: right;
+        line-height: 40px;
+        padding: 4px;
+      }
+
+      div {
+         overflow-x: auto;
+      }
+
+      th {
+        background-color: aqua;
+      }
+
+      caption {
+        margin-bottom: 8px;
+      }
+      
+      tfoot {
+        font-weight: 700;
+      }
+
+      tbody > tr:nth-child(odd) {
+        background-color: #f2f2f2;
+      }
+
+       tbody > tr:hover {
+         background-color: #aaa;
+         color: white;
+       }
+    </style>
+  </head>
+
+  <body>
+    <div>
+    <table>
+      <caption>Shopping list</caption>
+      <thead>
+        <th>Product</th>
+        <th>Amount</th>
+        <th>Price</th>
+        <th>Subtotal</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Milk</td>
+          <td>3</td>
+          <td>$2</td>
+          <td>$6</td>
+        </tr>
+        <tr>
+          <td>Bread</td>
+          <td>4</td>
+          <td>$1</td>
+          <td>$4</td>
+        </tr>
+         <tr>
+          <td>Meat</td>
+          <td>5</td>
+          <td>$10</td>
+          <td>$50</td>
+        </tr>
+        <tfoot>
+          <td colspan="3">Total</td>          
+          <td>$60</td>
+        </tfoot>
+      </tbody>
+    </table>
+    </div>
+  </body>
+</html>
