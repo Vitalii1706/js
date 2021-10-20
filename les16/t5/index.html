@@ -14,13 +14,14 @@
         box-sizing: border-box;
       }
 
-      .form-control,
-      .language {
-        margin: 8px;
-      }
-
       .login-form {
         margin: 32px;
+      }
+
+      .form-control,
+      .languages {
+        display: block;
+        margin: 8px;
       }
     </style>
   </head>
@@ -91,7 +92,7 @@
       <div class="form-control">
         <input type="password" name="password" value="secret" />
       </div>
-      <div class="language">
+      <div class="languages">
         <input type="radio" name="language" value="html" />HTML
         <input type="radio" name="language" value="css" checked />CSS
         <input type="radio" name="language" value="javascript" />JavaScript
