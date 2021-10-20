@@ -14,7 +14,8 @@
         box-sizing: border-box;
       }
 
-      .form-control {
+      .form-control,
+      .language {
         margin: 8px;
       }
 
@@ -69,62 +70,57 @@
       <div class="form-control">
         <label><input type="file" name="avatar" /> </label>
       </div>
-
       <div class="form-control">
-        <label><input type="number" name="favoriteNumber" value="17" /> </label>
+        <label
+          ><input type="month" name="startLearning" value="2020-01" />
+        </label>
+      </div>
+      <div class="form-control">
+        <label
+          ><input type="number" name="favouriteNumber" value="17" />
+        </label>
       </div>
       <div class="form-control">
         <textarea
           name="story"
-          placeholder="A long time ago..."
           cols="30"
           rows="5"
+          placeholder="A long time ago..."
         ></textarea>
       </div>
       <div class="form-control">
-        <label class="form-label"></label>
         <input type="password" name="password" value="secret" />
       </div>
-      <div class="form-control language">
-        <input type="radio" name="language" value="html" />
-        <label for="gender-male">HTML</label>
-        <input type="radio" name="language" value="css" checked />
-        <label for="gender-female">CSS</label>
-        <input type="radio" name="language" value="javascript" />
-        <label for="gender-secret">JavaScript</label>
+      <div class="language">
+        <input type="radio" name="language" value="html" />HTML
+        <input type="radio" name="language" value="css" checked />CSS
+        <input type="radio" name="language" value="javascript" />JavaScript
       </div>
       <div class="form-control">
-        <label
-          ><input type="range" name="learningProgress" value="30" />
-        </label>
+        <input type="range" name="learningProgress" value="30" />
       </div>
       <div class="form-control">
-        <label
-          ><select name="framework" />
+        <select name="framework">
           <option value="react">React</option>
           <option value="jquery" selected>jQuery</option>
           <option value="bootstrap">Bootstrap</option>
-        </label>
+        </select>
       </div>
       <div class="form-control">
-        <label
-          ><input
-            type="search"
-            name="search"
-            placeholder="Type first letters..."
-          />
-        </label>
+        <input
+          type="search"
+          name="search"
+          placeholder="Type first letters..."
+        />
       </div>
       <div class="form-control">
-        <label><input type="time" name="lunchEnd" value="14:01" /> </label>
+        <input type="time" name="lunchEnd" value="14:01" />
       </div>
       <div class="form-control">
-        <label
-          ><input type="url" name="website" placeholder="https://website.com" />
-        </label>
+        <input type="url" name="website" placeholder="https://website.com" />
       </div>
       <div class="form-control">
-        <label><input type="week" name="birthWeek" value="2021-W51" /> </label>
+        <input type="week" name="birthWeek" value="2021-W51" />
       </div>
       <button class="form-control" type="submit">Save</button>
     </form>
