@@ -9,18 +9,18 @@
         box-sizing: border-box;
       }
 
-      .container {
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
       .square {
         width: 100px;
         height: 100px;
         background-color: #8a2be2;
         margin: 8px;
+      }
+
+      .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       @media screen and (max-width: 600px) {
@@ -32,6 +32,7 @@
       @media screen and (orientation: portrait) {
         .container {
           flex-direction: column;
+        }
       }
     </style>
   </head>
