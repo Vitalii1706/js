@@ -69,7 +69,6 @@ body {
 }
 
 .nav-list-item {
-  display: flex;
   background-color: #808080;
   color: white;
   height: 2em;
@@ -84,5 +83,4 @@ body {
 .nav-list-link {
   text-decoration: none;
   color: white;
-  margin: auto 0;
 }
