@@ -68,6 +68,13 @@ body {
   padding: 0;
 }
 
+.nav-list-link {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin: auto 0;
+}
+
 .nav-list-item {
   background-color: #808080;
   color: white;
@@ -78,9 +85,5 @@ body {
   text-overflow: ellipsis;
   padding-left: 0.5em;
   padding-right: 0.5em;
-}
-
-.nav-list-link {
-  text-decoration: none;
-  color: white;
+  display: flex;
 }
