@@ -43,6 +43,7 @@ span {
   .products {
     display: flex;
     flex-grow: 2;
+    flex-basis: 0;
   }
 }
 
@@ -50,5 +51,8 @@ span {
   .content {
     display: flex;
     flex-direction: row;
+  }
+  .news {
+    flex-basis: 0;
   }
 }
