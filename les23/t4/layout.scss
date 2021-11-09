@@ -1,3 +1,15 @@
+@mixin for-medium-up {
+  @media screen and (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin for-large-up {
+  @media screen and (min-width: 900px) {
+    @content;
+  }
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -39,9 +51,3 @@ span {
   display: flex;
   flex-grow: 1;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-/*# sourceMappingURL=styles.css.map */
