@@ -1,3 +1,15 @@
+@mixin for-medium-up {
+  @media screen and (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin for-large-up {
+  @media screen and (min-width: 900px) {
+    @content;
+  }
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -39,40 +51,3 @@ span {
   display: flex;
   flex-grow: 1;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-@media screen and (min-width: 600px) {
-  .products {
-    display: flex;
-    flex-direction: row;
-  }
-}
-@media screen and (min-width: 900px) {
-  .content {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .products {
-    display: flex;
-    flex-direction: row;
-    flex: 2;
-  }
-
-  .navigation {
-    flex: 1;
-  }
-
-  .producrs-list {
-    flex: 1;
-  }
-
-  .news {
-    flex: 1;
-  }
-}
-
-/*# sourceMappingURL=styles.css.map */

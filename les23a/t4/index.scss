@@ -1,0 +1,33 @@
+@import 'layout.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+@include for-medium-up {
+  .products {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@include for-large-up {
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+  .products {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+  }
+  .navigation {
+    flex: 1;
+  }
+  .producrs-list {
+    flex: 1;
+  }
+  .news {
+    flex: 1;
+  }
+}
