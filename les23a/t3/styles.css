@@ -4,11 +4,10 @@
 
 .menu {
   display: flex;
-  margin-left: 2em;
-  margin-top: 0;
-  padding-top: 0;
+  margin: 0;
+  padding: 0;
+  margin-left: 3em;
   text-transform: uppercase;
-  line-height: 3em;
   align-items: center;
   cursor: pointer;
 }
@@ -45,8 +44,7 @@
 }
 .submenu__item {
   list-style-type: none;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 8px;
 }
 .submenu__item:hover {
   color: black;

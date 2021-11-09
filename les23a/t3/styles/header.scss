@@ -14,9 +14,7 @@
     display: flex;
     align-items: center;
     height: 3em;
-    padding: 0;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 0 8px;
     list-style-type: none;
     color: white;
 
@@ -48,8 +46,7 @@
 
   &__item {
     list-style-type: none;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
 
     &:hover {
       color: black;
