@@ -15,7 +15,7 @@ body {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
-  margin: 16px;
+  margin: 16px 8px;
 
   @include for-medium-up {
     background-color: #8a2be2;
