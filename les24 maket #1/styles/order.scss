@@ -1,0 +1,118 @@
+.order {
+  padding: 50px 15px;
+  background-color: #f4f5f7;
+
+  @include for-large-up {
+    display: flex;
+    padding: 0;
+  }
+
+  &__img {
+    display: flex;
+
+    @include for-large-up {
+      padding: 0;
+      margin: 0;
+      padding: 73px 121px 72px 224px;
+    }
+  }
+
+  &__illustration {
+    width: 200px;
+    margin: auto;
+
+    @include for-large-up {
+      margin: 0;
+      height: 296px;
+      width: 269px;
+    }
+  }
+
+  &__content {
+    @include for-large-up {
+      width: 555px;
+      margin-right: 229px;
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    margin-top: 40px;
+    text-align: center;
+
+    @include for-large-up {
+      padding-top: 106px;
+      margin: 0;
+      margin-bottom: 12px;
+      text-align: left;
+    }
+  }
+  &__details {
+    font-size: 22px;
+    line-height: 32px;
+
+    @include for-large-up {
+      width: 555px;
+    }
+  }
+
+  &__text {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0;
+    margin-top: 18px;
+  }
+
+  &__form {
+    @include for-large-up {
+      display: flex;
+      margin-top: 26px;
+    }
+  }
+
+  &__email {
+    margin-top: 40px;
+    background: #ffffff;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 2px;
+    width: 100%;
+    height: 48px;
+    text-align: center;
+
+    @include for-large-up {
+      margin-top: 0;
+    }
+
+    &::placeholder {
+      color: #2b292d;
+
+      @include for-large-up {
+        padding: 15px;
+        text-align: left;
+      }
+    }
+  }
+
+  &__buttom {
+    margin-top: 12px;
+
+    @include for-large-down {
+      width: 100%;
+    }
+
+    @include for-large-up {
+      margin-top: 0;
+      margin-left: 10px;
+      flex-shrink: 0;
+    }
+  }
+
+  &__terns {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+}

@@ -1,0 +1,88 @@
+.features {
+  display: flex;
+  position: relative;
+}
+
+.features__content {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+}
+
+.features__left-decoration {
+  height: 166px;
+  position: absolute;
+  top: 258px;
+}
+
+.features__column {
+  width: 459px;
+  margin-bottom: 103px;
+}
+
+.features__subtitle {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #009b4d;
+  margin: 0;
+}
+
+.features__title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.5 px;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+.features__description {
+  font-size: 24px;
+  margin-bottom: 0;
+  line-height: 34px;
+  margin-top: 30px;
+}
+
+.features__advantege-header {
+  margin-top: 42px;
+  display: flex;
+  margin-top: 42px;
+}
+
+.features__advantege-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #3142c6;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.features__advantege-description {
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #3142c6;
+}
+
+.features__advantege-item {
+  border-bottom: 1px solid #2b292d26;
+  margin-top: 21px;
+  padding-bottom: 22px;
+  display: flex;
+}
+
+.features__advantege-item-text {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  margin-left: 15px;
+}
+
+.features__banner {
+  position: absolute;
+  right: 0;
+  filter: drop-shadow(0px 4px 16px rgba(44, 50, 65, 0.08));
+}

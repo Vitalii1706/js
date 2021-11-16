@@ -1,0 +1,134 @@
+.top-section {
+  background-color: #f3c6bd;
+}
+
+.header {
+  display: flex;
+  height: 64px;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo__img {
+  width: 48px;
+  height: 48px;
+  margin-right: 13px;
+}
+
+.logo__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo__name {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.logo__description {
+  display: none;
+}
+
+.navigation {
+  display: none;
+}
+
+.header__button {
+  display: none;
+}
+
+.header__menu-buttom {
+  width: 58px;
+  border: none;
+  border-left: 1px solid #00000026;
+  height: 100%;
+  margin-left: auto;
+  background: transparent;
+}
+
+.header__menu-buttom-icon {
+  width: 18px;
+  height: 13px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
+  display: inline-block;
+}
+
+.navigation-list__item {
+  color: #2b292d;
+  text-decoration: none;
+  line-height: 25px;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+.navigation-list__item_selected {
+  font-weight: 700;
+}
+
+.navigation-list__item:last-child {
+  margin-right: none;
+}
+.navigation__arrow {
+  display: inline-block;
+  height: 5px;
+  width: 8px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+  margin-left: 11px;
+}
+
+@media screen and (min-width: 400px) {
+  .top-section {
+    background-color: #f3c6bd;
+    padding-top: 39px;
+
+    .header__menu-buttom {
+      display: none;
+    }
+
+    .navigation {
+      display: block;
+      margin-left: auto;
+      margin-top: 7px;
+      margin-right: 75px;
+    }
+
+    .header {
+      width: 1140px;
+      height: 62px;
+      margin: auto;
+      display: flex;
+      background-color: #f3c6bd;
+      padding-left: 0;
+    }
+
+    .header__button {
+      display: block;
+    }
+
+    .header__menu-button {
+      display: block;
+    }
+
+    .logo__img {
+      width: 60px;
+      height: 60px;
+      margin-right: 15px;
+    }
+
+    .logo__description {
+      display: block;
+      font-size: 18px;
+      line-height: 25px;
+      color: #2b292d;
+      opacity: 0.6;
+    }
+  }
+}

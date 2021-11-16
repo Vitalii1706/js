@@ -1,0 +1,153 @@
+.footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.about-company {
+  margin-top: 44px;
+}
+
+.footer__description-text {
+  display: block;
+}
+
+.footer__description {
+  line-height: 26px;
+  font-size: 18px;
+  width: 360px;
+  margin-top: 26px;
+  color: #2b292d;
+  opacity: 60%;
+}
+
+.footer-navigation {
+  display: flex;
+  flex-direction: row;
+  width: 1140px;
+  height: 339px;
+  margin: 0 auto;
+}
+
+.downloads {
+  margin-top: 25px;
+
+  &__item {
+    margin-right: 10px;
+  }
+}
+
+.additional-navigation {
+  margin-top: 60px;
+  margin-left: auto;
+  display: flex;
+
+  &__column {
+    margin-right: 29px;
+  }
+}
+
+.nav-links {
+  width: 265px;
+
+  &__title {
+    font-weight: bold;
+    font-size: 22px;
+    color: #2b292d;
+    line-height: 28px;
+    margin: 0;
+  }
+
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: #2b292d;
+    opacity: 60%;
+    margin-top: 18px;
+  }
+}
+
+.footer-link {
+  height: 50px;
+  width: 1140px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__line {
+  border-top: 1px solid #2b292d;
+  width: 100%;
+  opacity: 10%;
+  margin: 0;
+}
+
+.terms {
+  line-height: 50px;
+  font-size: 14px;
+  margin-left: 130px;
+
+  &__items {
+    text-decoration: none;
+    color: #2b292d;
+    opacity: 60%;
+    margin-right: 22px;
+  }
+}
+
+.social-links {
+  margin-left: auto;
+
+  &__item {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer-navigation {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: auto;
+  }
+
+  .logo-footer {
+    flex-direction: column;
+  }
+
+  .footer__logo-img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+  }
+
+  .logo__text-footer {
+    text-align: center;
+    height: 51px;
+  }
+  .footer__description {
+    display: none;
+  }
+  .downloads {
+    text-align: center;
+    margin: 31px auto 40px;
+  }
+
+  .additional-navigation {
+    flex-direction: column;
+    text-align: left;
+  }
+  .footer__line {
+    position: absolute;
+    top: 282px;
+  }
+  .footer-link {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    text-align: left;
+  }
+}
